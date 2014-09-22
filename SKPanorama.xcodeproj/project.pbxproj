@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1DD49B19CC469000B80632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DD49A19CC469000B80632 /* main.m */; };
+		BA1DD49E19CC469000B80632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DD49D19CC469000B80632 /* AppDelegate.m */; };
+		BA1DD4A119CC469000B80632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DD4A019CC469000B80632 /* ViewController.m */; };
+		BA1DD4A419CC469000B80632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD4A219CC469000B80632 /* Main.storyboard */; };
+		BA1DD4A619CC469000B80632 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD4A519CC469000B80632 /* Images.xcassets */; };
+		BA1DD4A919CC469000B80632 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD4A719CC469000B80632 /* LaunchScreen.xib */; };
+		BA1DD4B519CC469000B80632 /* SKPanoramaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DD4B419CC469000B80632 /* SKPanoramaTests.m */; };
+		BA1DD4CF19CC495600B80632 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1DD4CE19CC495600B80632 /* WebKit.framework */; };
+		BA1DD54619CFCC1600B80632 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD53C19CFCC1600B80632 /* images */; };
+		BA1DD54719CFCC1600B80632 /* pano2vr_player.js in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD53D19CFCC1600B80632 /* pano2vr_player.js */; };
+		BA1DD54819CFCC1600B80632 /* pano2vr_player.swf in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD53E19CFCC1600B80632 /* pano2vr_player.swf */; };
+		BA1DD54919CFCC1600B80632 /* pano2vrgyro.js in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD53F19CFCC1600B80632 /* pano2vrgyro.js */; };
+		BA1DD54A19CFCC1600B80632 /* swfobject.js in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD54019CFCC1600B80632 /* swfobject.js */; };
+		BA1DD54B19CFCC1600B80632 /* tara-diego-panorama_1.html in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD54119CFCC1600B80632 /* tara-diego-panorama_1.html */; };
+		BA1DD54C19CFCC1600B80632 /* tara-diego-panorama_2.html in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD54219CFCC1600B80632 /* tara-diego-panorama_2.html */; };
+		BA1DD54D19CFCC1600B80632 /* tara-diego-panorama_out.xml in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD54319CFCC1600B80632 /* tara-diego-panorama_out.xml */; };
+		BA1DD54E19CFCC1600B80632 /* tara-diego-panorama.html in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD54419CFCC1600B80632 /* tara-diego-panorama.html */; };
+		BA1DD54F19CFCC1600B80632 /* tiles in Resources */ = {isa = PBXBuildFile; fileRef = BA1DD54519CFCC1600B80632 /* tiles */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1DD4AF19CC469000B80632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1DD48D19CC469000B80632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1DD49419CC469000B80632;
+			remoteInfo = SKPanorama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA1DD49519CC469000B80632 /* SKPanorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKPanorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1DD49919CC469000B80632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1DD49A19CC469000B80632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA1DD49C19CC469000B80632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA1DD49D19CC469000B80632 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA1DD49F19CC469000B80632 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA1DD4A019CC469000B80632 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA1DD4A319CC469000B80632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA1DD4A519CC469000B80632 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA1DD4A819CC469000B80632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA1DD4AE19CC469000B80632 /* SKPanoramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKPanoramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1DD4B319CC469000B80632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1DD4B419CC469000B80632 /* SKPanoramaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKPanoramaTests.m; sourceTree = "<group>"; };
+		BA1DD4CE19CC495600B80632 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BA1DD53C19CFCC1600B80632 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BA1DD53D19CFCC1600B80632 /* pano2vr_player.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pano2vr_player.js; sourceTree = "<group>"; };
+		BA1DD53E19CFCC1600B80632 /* pano2vr_player.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pano2vr_player.swf; sourceTree = "<group>"; };
+		BA1DD53F19CFCC1600B80632 /* pano2vrgyro.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pano2vrgyro.js; sourceTree = "<group>"; };
+		BA1DD54019CFCC1600B80632 /* swfobject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = swfobject.js; sourceTree = "<group>"; };
+		BA1DD54119CFCC1600B80632 /* tara-diego-panorama_1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "tara-diego-panorama_1.html"; sourceTree = "<group>"; };
+		BA1DD54219CFCC1600B80632 /* tara-diego-panorama_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "tara-diego-panorama_2.html"; sourceTree = "<group>"; };
+		BA1DD54319CFCC1600B80632 /* tara-diego-panorama_out.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tara-diego-panorama_out.xml"; sourceTree = "<group>"; };
+		BA1DD54419CFCC1600B80632 /* tara-diego-panorama.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "tara-diego-panorama.html"; sourceTree = "<group>"; };
+		BA1DD54519CFCC1600B80632 /* tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tiles; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1DD49219CC469000B80632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DD4CF19CC495600B80632 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DD4AB19CC469000B80632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1DD48C19CC469000B80632 = {
+			isa = PBXGroup;
+			children = (
+				BA1DD49719CC469000B80632 /* SKPanorama */,
+				BA1DD4B119CC469000B80632 /* SKPanoramaTests */,
+				BA1DD49619CC469000B80632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1DD49619CC469000B80632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD49519CC469000B80632 /* SKPanorama.app */,
+				BA1DD4AE19CC469000B80632 /* SKPanoramaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1DD49719CC469000B80632 /* SKPanorama */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD4BE19CC469C00B80632 /* Resource */,
+				BA1DD49C19CC469000B80632 /* AppDelegate.h */,
+				BA1DD49D19CC469000B80632 /* AppDelegate.m */,
+				BA1DD49F19CC469000B80632 /* ViewController.h */,
+				BA1DD4A019CC469000B80632 /* ViewController.m */,
+				BA1DD4A219CC469000B80632 /* Main.storyboard */,
+				BA1DD4A519CC469000B80632 /* Images.xcassets */,
+				BA1DD4A719CC469000B80632 /* LaunchScreen.xib */,
+				BA1DD49819CC469000B80632 /* Supporting Files */,
+			);
+			path = SKPanorama;
+			sourceTree = "<group>";
+		};
+		BA1DD49819CC469000B80632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD4CE19CC495600B80632 /* WebKit.framework */,
+				BA1DD49919CC469000B80632 /* Info.plist */,
+				BA1DD49A19CC469000B80632 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1DD4B119CC469000B80632 /* SKPanoramaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD4B419CC469000B80632 /* SKPanoramaTests.m */,
+				BA1DD4B219CC469000B80632 /* Supporting Files */,
+			);
+			path = SKPanoramaTests;
+			sourceTree = "<group>";
+		};
+		BA1DD4B219CC469000B80632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD4B319CC469000B80632 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1DD4BE19CC469C00B80632 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD4BF19CC46A800B80632 /* HTML */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		BA1DD4BF19CC46A800B80632 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DD53C19CFCC1600B80632 /* images */,
+				BA1DD53D19CFCC1600B80632 /* pano2vr_player.js */,
+				BA1DD53E19CFCC1600B80632 /* pano2vr_player.swf */,
+				BA1DD53F19CFCC1600B80632 /* pano2vrgyro.js */,
+				BA1DD54019CFCC1600B80632 /* swfobject.js */,
+				BA1DD54119CFCC1600B80632 /* tara-diego-panorama_1.html */,
+				BA1DD54219CFCC1600B80632 /* tara-diego-panorama_2.html */,
+				BA1DD54319CFCC1600B80632 /* tara-diego-panorama_out.xml */,
+				BA1DD54419CFCC1600B80632 /* tara-diego-panorama.html */,
+				BA1DD54519CFCC1600B80632 /* tiles */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1DD49419CC469000B80632 /* SKPanorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1DD4B819CC469000B80632 /* Build configuration list for PBXNativeTarget "SKPanorama" */;
+			buildPhases = (
+				BA1DD49119CC469000B80632 /* Sources */,
+				BA1DD49219CC469000B80632 /* Frameworks */,
+				BA1DD49319CC469000B80632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKPanorama;
+			productName = SKPanorama;
+			productReference = BA1DD49519CC469000B80632 /* SKPanorama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1DD4AD19CC469000B80632 /* SKPanoramaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1DD4BB19CC469000B80632 /* Build configuration list for PBXNativeTarget "SKPanoramaTests" */;
+			buildPhases = (
+				BA1DD4AA19CC469000B80632 /* Sources */,
+				BA1DD4AB19CC469000B80632 /* Frameworks */,
+				BA1DD4AC19CC469000B80632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1DD4B019CC469000B80632 /* PBXTargetDependency */,
+			);
+			name = SKPanoramaTests;
+			productName = SKPanoramaTests;
+			productReference = BA1DD4AE19CC469000B80632 /* SKPanoramaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA1DD48D19CC469000B80632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "酒井 翔也";
+				TargetAttributes = {
+					BA1DD49419CC469000B80632 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BA1DD4AD19CC469000B80632 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BA1DD49419CC469000B80632;
+					};
+				};
+			};
+			buildConfigurationList = BA1DD49019CC469000B80632 /* Build configuration list for PBXProject "SKPanorama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA1DD48C19CC469000B80632;
+			productRefGroup = BA1DD49619CC469000B80632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1DD49419CC469000B80632 /* SKPanorama */,
+				BA1DD4AD19CC469000B80632 /* SKPanoramaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1DD49319CC469000B80632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DD54619CFCC1600B80632 /* images in Resources */,
+				BA1DD4A419CC469000B80632 /* Main.storyboard in Resources */,
+				BA1DD54719CFCC1600B80632 /* pano2vr_player.js in Resources */,
+				BA1DD54D19CFCC1600B80632 /* tara-diego-panorama_out.xml in Resources */,
+				BA1DD54E19CFCC1600B80632 /* tara-diego-panorama.html in Resources */,
+				BA1DD4A919CC469000B80632 /* LaunchScreen.xib in Resources */,
+				BA1DD54F19CFCC1600B80632 /* tiles in Resources */,
+				BA1DD54819CFCC1600B80632 /* pano2vr_player.swf in Resources */,
+				BA1DD54C19CFCC1600B80632 /* tara-diego-panorama_2.html in Resources */,
+				BA1DD54919CFCC1600B80632 /* pano2vrgyro.js in Resources */,
+				BA1DD54A19CFCC1600B80632 /* swfobject.js in Resources */,
+				BA1DD4A619CC469000B80632 /* Images.xcassets in Resources */,
+				BA1DD54B19CFCC1600B80632 /* tara-diego-panorama_1.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DD4AC19CC469000B80632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1DD49119CC469000B80632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DD4A119CC469000B80632 /* ViewController.m in Sources */,
+				BA1DD49E19CC469000B80632 /* AppDelegate.m in Sources */,
+				BA1DD49B19CC469000B80632 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DD4AA19CC469000B80632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DD4B519CC469000B80632 /* SKPanoramaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1DD4B019CC469000B80632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1DD49419CC469000B80632 /* SKPanorama */;
+			targetProxy = BA1DD4AF19CC469000B80632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA1DD4A219CC469000B80632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1DD4A319CC469000B80632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA1DD4A719CC469000B80632 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1DD4A819CC469000B80632 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1DD4B619CC469000B80632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA1DD4B719CC469000B80632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA1DD4B919CC469000B80632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKPanorama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA1DD4BA19CC469000B80632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKPanorama/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA1DD4BC19CC469000B80632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKPanoramaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKPanorama.app/SKPanorama";
+			};
+			name = Debug;
+		};
+		BA1DD4BD19CC469000B80632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKPanoramaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKPanorama.app/SKPanorama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1DD49019CC469000B80632 /* Build configuration list for PBXProject "SKPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DD4B619CC469000B80632 /* Debug */,
+				BA1DD4B719CC469000B80632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1DD4B819CC469000B80632 /* Build configuration list for PBXNativeTarget "SKPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DD4B919CC469000B80632 /* Debug */,
+				BA1DD4BA19CC469000B80632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1DD4BB19CC469000B80632 /* Build configuration list for PBXNativeTarget "SKPanoramaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DD4BC19CC469000B80632 /* Debug */,
+				BA1DD4BD19CC469000B80632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA1DD48D19CC469000B80632 /* Project object */;
+}
